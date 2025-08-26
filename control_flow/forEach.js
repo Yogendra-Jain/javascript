@@ -53,3 +53,10 @@ const arr =[
 arr.forEach((item)=>{
     console.log(item.languageName);
 })
+
+
+// foreach koi value return nhi karta isliye ye 'undefined ' deta he 
+let newnum = coding.forEach((item)=>{
+    return item.languageName;
+})
+console.log(newnum);
